@@ -1,14 +1,10 @@
 /*Creamos un css ya que el de grid es solo para grid*/
 
-
-
 .caja {
 
     background-color: cyan
 
 }
-
-
 
 header {
 
@@ -16,62 +12,40 @@ header {
 
 }
 
-
-
 .back {
 
     background-image: url(http://reliveandplay.com/wp-content/uploads/studio-ghibli.jpg?x11916);
-
     background-repeat: no-repeat;
-
     background-size: cover;
-
     background-position: center;
-
     height: 100vh;
 
 }
 
-
-
-
-
 /*Para el container que esta dentro de back*/
-
-
 
 .back .container {
 
    /* background-color: rgba(255, 255, 255, 0.5);*/
-
     position: relative;
-
     height: 100vh;
 
 }
 
-
-
 .texto {
 
     position: absolute;
-
     top: 40%;
-
     left: 35%;
 
 }
 
 
-
 .button {
 
     width: 150px;
-
     height: 35px;
-
     float: right;
-
     cursor: pointer;
 
 }
